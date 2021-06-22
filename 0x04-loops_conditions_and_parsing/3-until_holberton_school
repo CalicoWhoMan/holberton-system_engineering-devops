@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-i="Holberton School";
-until false;
+lemon=1;
+until [ $lemon -gt 10 ];
 do
-    echo "Counter  = $i";
-    (( i++ ));
+    echo "Holbeton School";
+    lemon=$(( lemon +  1));
 done
