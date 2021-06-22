@@ -3,6 +3,6 @@
 lemon=1;
 until [ $lemon -gt 10 ];
 do
-    echo "Holbeton School";
+    echo "Holberton School";
     lemon=$(( lemon +  1));
 done
