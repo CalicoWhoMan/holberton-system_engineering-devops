@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-i="Holberton School"
-until false
+i="Holberton School";
+until false;
 do
-    echo "i = $i"
-    (( i++ ))
+    echo "Counter  = $i";
+    (( i++ ));
 done
