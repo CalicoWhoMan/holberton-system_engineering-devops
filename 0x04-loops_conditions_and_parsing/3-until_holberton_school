@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#This scripty pring Holberton school 10 times using while loop
 lemon=1;
 until [ $lemon -gt 10 ];
 do
