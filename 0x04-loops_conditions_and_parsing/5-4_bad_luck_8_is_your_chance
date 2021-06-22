@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+lemon=1;
+while [ $lemon -le 10 ];
+do
+  if [ $lemon -eq 4 ];
+  then echo "bad luck";
+  elif [ $lemon -eq 8 ];
+  then echo "good luck";
+  else
+      echo "Holberton School";
+  fi
+      (( lemon++ ))
+	     done
