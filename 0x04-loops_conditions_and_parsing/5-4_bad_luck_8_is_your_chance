@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# print bad luck on line 4 good luck on lin 8 and holberton on the rest 1-10 loops
 lemon=1;
 while [ $lemon -le 10 ];
 do
