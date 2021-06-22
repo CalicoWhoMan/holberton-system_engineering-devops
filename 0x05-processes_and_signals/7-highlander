@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#echo i am invicible with trap SIGTERM when you add PID yes"
 while :
 do
     echo "To infinity and beyond"
