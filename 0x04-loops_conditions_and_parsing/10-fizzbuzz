@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#script that displays 1-100 FizzBuzz 3x5 Fizz x3 and Buzz x5 in a list format
+ls -l

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#script that displays time for 12 hours nad 59 mins with while
+while
+    
