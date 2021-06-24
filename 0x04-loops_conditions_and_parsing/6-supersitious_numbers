@@ -1,4 +1,17 @@
 #!/usr/bin/env bash
 #Script that displays 1-20 4 china 9 japan 17 italy with while and case
-while
-    
+lemons=1
+while [ $lemons -lt ]
+do 
+	echo "$lemons"
+	(lemons++)
+	
+	case "$lemons" in 
+		"4") echo "bad luck from China"
+		;;
+		"9") echo "bad luck from Japan"
+		;;
+		"17") echo "bad luck from Italy"
+		;;
+	esac
+done
