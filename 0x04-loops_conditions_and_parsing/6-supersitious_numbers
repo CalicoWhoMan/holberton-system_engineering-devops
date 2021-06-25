@@ -3,22 +3,21 @@
 lemons=1
 while [ $lemons -lt 21 ]
 do 
+	echo "$lemons"
 	case "$lemons" in 
 		4)
-			echo $lemons
 		       	echo "bad luck from China"
 		;;
 
 		9)
-			echo $lemons
 		       	echo "bad luck from Japan"
 		;;
 
 		17)
-			echo $lemons
 			echo "bad luck from Italy"
 		;;
 	esac
 
 	((lemons++))
 done
+
