@@ -11,5 +11,5 @@ do
                 echo $min
                 ((min++))
         done
-        ((hour++)) 
+        ((Hour++)) 
 done
