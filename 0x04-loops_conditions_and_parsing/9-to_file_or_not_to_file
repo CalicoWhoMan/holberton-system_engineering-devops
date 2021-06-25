@@ -1,17 +1,17 @@
-m!/usr/bin/env bash
+#!/usr/bin/env bash
 #gives information about holbertonschool file using if and else but NOT case
-if [[ -e "holbertonschool"]]
+if [[ -e "holbertonschool" ]]
 then
 	echo "holbertonschool file exists"
 
-	if [[-s "holbertonschool"]]
+	if [[ -s "holbertonschool" ]]
 	then
 		echo "holbertonschool file is not empty"
 	else
 		echo "holbertonschool file is empty"
 	fi
 	
-	if [[-f "holbertonschool"]]
+	if [[ -f "holbertonschool" ]]
 	then 
 		echo "holbertonschool is a regular file"
 	fi
