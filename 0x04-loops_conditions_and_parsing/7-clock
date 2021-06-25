@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 #script that displays time for 12 hours nad 59 mins with while
-lemons=0
-while [ $lemons -le 12 ]
+lemons=1
+while [ "$lemons" -le 12 ]
 do
-	echo "lemons: $lemons"
-	lime=0
-	while [$limes -eq 60 ]
-	do
-		echo "limes"
-		((limes++))
-	done
-	((lemons++))
+        echo "lemons: $lemons"
+        limes=1
+        while [ "$limes" -lt 60 ]
+
+        do
+                echo $limes
+                ((limes++))
+        done
+        ((lemons++)) 
 done
