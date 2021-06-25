@@ -3,8 +3,6 @@
 lemons=1
 while [ $lemons -lt 21 ]
 do 
-	echo "$lemons"
-	
 	case "$lemons" in 
 		4)
 			echo $lemons
